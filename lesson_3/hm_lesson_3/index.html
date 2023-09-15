@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Шай-лушай</title>
 </head>
+
 <body>
-    <h1>Привіт! Це домашка!</h1>
+    <div class="wrapper">
+        <header>
+            <div class="main-title">
+                <h1><span>Сьогодні</span> будемо дивитися <mark>Шай-Лушай</mark></h1>
+            </div>
+            <div class="second-title">
+                <h2>Хто такий взагалі той шай-лушай?</h2>
+                <h3>Відповідь: <br> Я ї сам не в курсах</h3>
+                <a title="click" href="#myAudio"><strong>Будь ласка перед переглядом вімкніть музику </strong></a>
+            </div>
+        </header>
+        <div class="music">
+            <div class="title-music">Ось музика яку треба <span>ОБОВ'ЯЗКОВО</span> вмикати перед тим як
+                дивитися шай-лушай </div>
+            <div class="main-music">
+                <audio id="myAudio" controls>
+                    <source src="audio/audio_shaylushay.mp3">
+                  </audio>
+
+            </div>
+
+        <!-- нульовий рівень вкладеності та батьківський елемент відносно тегу div -->
+        <main>
+            <!-- перший беспосередній рівень вкладености відносну тега main -->
+            <!-- батьківський елемнет відносно тегу div -->
+            <div class="main">
+                <!-- другий рівень вкладености для main -->
+                <!-- перший беспосередній рівень вкладеності відносно тега DIV. -->
+                <div class="img">
+                    <img src="img/photo_1.png" alt="шай-лушай">
+                </div>
+                <div class="text-info">
+                    <h4>Ладно, я щось знайшов про шай-лушай</h4>
+                    <p>ОСЬ:</p>
+                    <p>Шайлушай з'явився в 2014 році, як арт від художника Нейта Халлінана. Тоді ще не було AI. Так,
+                        наш синій друг зроблен у фотошопі.</p>
+                    <p>Через 9 років, <mark>26 серпня 2023</mark> року, картина Нейта Халліна несподівано з'являється в
+                        ТікТоку.
+                    <details>
+                        <summary>Користувач</summary> @ghojam1
+                    </details>публікує слайдшоу із 8 фотографій з персонажем:</p>
+                </div>
+                <div class="main-img"><img src="img/photo_2.png" alt="Різно кольоровий шай-лушай">
+                    <p><strong>Шай-лушай на любий колір та смак!!!</strong></p>
+                    <hr>
+                    
+                        <div class="memes-img">
+                            
+                            <div class="img-1">
+                               <img src="img/photo_3.png" alt="Мем шай-лушай 1"> 
+                            </div>
+                            <div class="img-2">
+                                <img src="img/photo_4.png" alt="Мем шай-лушай 2">
+                            </div>
+                            <div class="img-3">
+                                <img src="img/photo_5.png" alt="Мем шай-лушай 3">
+                            </div>
+                            <div class="img-4">
+                                <img src="img/photo_6.png" alt="Мем шай-лушай 4">
+                            </div>
+                            <div class="img-4">
+                                <img src="img/photo_7.png" alt="Мем шай-лушай 4">
+                            </div>
+                            
+                        </div>
+                    </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <p>Короче, шай-лушай прикольна тема, но я вже втомився.</p>
+                <p>Ї під кінець ось вам віршик:</p>
+                <div class="verse">
+                    <p id="verse">Бийте, браття, <span>москаля!</span>
+                        Бийте, не жалійте!
+                        Бийте скрізь, де е земля
+                        І на морі бийте
+                        Не давайте москалю
+                        Випрямити спину
+                        Піде добривом в ріллю Ворог
+                        Украіни
+                        І на згарищі Кремля
+                        Все зерном засійте!
+                        Бийте, браття, москаля!
+                        Бийте, не жалійте!</p>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
