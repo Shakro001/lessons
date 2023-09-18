@@ -1,0 +1,89 @@
+
+
+@import url(reset.css);
+
+
+
+/* * - запит до всіх об'єктів */
+
+
+/* .text-1 .text{
+    color: green;
+    усі теги з класом text у класі text-1
+} */
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    background-color: green;
+}
+
+[class*="section"]{
+    border: 2px solid;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* .wrapper *{
+    color: inherit
+} */
+
+.id-list.list{
+    color: blue;
+}
+
+.main-title > h2{
+    color: red;
+}
+
+.main-title + h1{
+    color: rgb(151, 142, 142);
+}
+
+
+.section-6 p{
+    color: pink;
+}
+
+div.text-13{
+    color: red;
+}
+
+/* #start a{
+    color: blue;
+} */
+
+span{
+    color: rgb(62, 197, 62);
+}
+
+
+.section-8 ~ a{
+    color: rgb(12, 12, 226);
+}
+
+.section-3 .text-5{
+    color: rgb(75, 9, 92);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
