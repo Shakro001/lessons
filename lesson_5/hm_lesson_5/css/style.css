@@ -27,7 +27,6 @@ body {
 
 .main-title h1{
     color: rgb(224, 216, 216);
-    font-family: 'Raleway' sans-serif;
     font-size: 40px;
 }
 .main-img img{
@@ -137,7 +136,6 @@ body {
 }
 [class*="event"] h1,h2,h3{
     color: rgb(224, 216, 216);
-    font-family: 'Raleway' fantasy;
     font-size: 30px;
     font-weight: 500;
     padding: 40px;
