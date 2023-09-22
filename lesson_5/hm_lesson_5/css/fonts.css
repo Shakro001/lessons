@@ -1,5 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @font-face {
     font-family: 'Pobeda';
     src: 
@@ -14,8 +18,3 @@
  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
