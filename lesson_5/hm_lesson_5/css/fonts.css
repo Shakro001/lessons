@@ -7,10 +7,18 @@
     src: 
     url("../fonts/Pobeda-Bold.woff2") format("woff2"),
     url(../fonts/Pobeda-Bold.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    
+    
 }
 @font-face {
     font-family: 'Pobeda';
     src: 
     url('../fonts/Pobeda-Regular.woff2') format("woff2"),
     url(../fonts/Pobeda-Regular.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
 }
