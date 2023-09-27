@@ -1,0 +1,479 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.header {
+    text-align: center;
+    margin: 20px 0px 50px 0;
+    font-size: 40px;
+    color: orange;
+}
+
+
+/* ---------------------------------- */
+
+
+
+.container-block-1 {
+    max-width: 1180px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.main-text-container-block-1 {
+    display: inline-block;
+    text-align: left;
+    padding-top: 21px;
+    margin-right: 38px;
+}
+
+.first-title-container-block {
+    color: #D06B00;
+    font-family: "Inter";
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+
+.second-title-container-block {
+    color: #0E333D;
+    font-family: DM Serif Text;
+    font-size: 59px;
+    line-height: 1.46;
+    max-width: 526px;
+    margin-bottom: 25px;
+}
+
+.main-paragraph-container-block {
+    color: #474747;
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 1.80;
+    max-width: 563px;
+}
+
+.image-container-block-1 {
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.woomen-img {
+    margin-right: 22px;
+}
+
+
+/* -------------------------------- */
+
+
+
+.container-block-2 {
+    max-width: 695px;
+    margin: 0 auto;
+}
+
+.image-container-block {
+    max-width: 100%;
+    margin-bottom: 190px;
+}
+
+.main-text-container-block-2 {
+    margin-bottom: 40px;
+}
+
+.first-title-container-block-2 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+
+.first-paragraph-container-block-2 {
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.46;
+    margin-bottom: 45px;
+}
+
+.second-title-container-block-2 {
+    color: #6B77E5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 12px;
+}
+
+.second-paragpaph-container-block-2 {
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.46;
+}
+
+
+/* ------- */
+
+
+.list-container{
+    margin-bottom: 100px;
+}
+
+.image-list-container{
+    margin-right: 29px;
+}
+
+.text-list-container {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 320px;
+
+}
+
+
+.first-title-list-container {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 15px;
+}
+
+.second-title-list-container {
+    color: #40DDB6;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 25px;
+    max-width: 332px;
+}
+
+.main-list-list-container li{
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 35px;
+    vertical-align: middle;
+}
+
+.main-list-list-container img{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* ---- */
+
+
+.container-panel {
+    text-align: center;
+    width: 1220px;
+    margin: 0 auto 150px;
+    font-size: 0;
+}
+
+
+.panel-title-1 {
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.panel-title-2 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    max-width: 619px;
+    margin: 0 auto 42px;
+
+}
+
+.panel-1 {
+    text-align: center;
+    display: inline-block;
+    width: 386px;
+    padding: 47px 31px;
+    margin-top: 50px;
+    margin-right: 31px;
+    vertical-align: top;
+}
+
+.name-panel-1 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.10;
+    margin-left: 31px;
+    margin-bottom: 25px;
+}
+
+.line-1 {
+    width: 324px;
+    height: 1px;
+    background: #D3D3D3;
+
+}
+
+.price-panel-1 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.10;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.price-panel-1 span {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.10;
+}
+
+
+.first-bottom-panel-1 {
+    color: #208068;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.57;
+    background: #40DDB6;
+    padding: 7px 32px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.list-panel-1 li {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.35;
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+
+.list-panel-1 span {
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+
+
+.second-bottom-panel-1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    background: #6B77E5;
+    padding: 21px 42px 22px 42px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+
+/* ------------------------- */
+
+
+.panel-2 {
+    text-align: center;
+    display: inline-block;
+    max-width: 619px;
+    vertical-align: middle;
+    margin: 0 auto;
+    background: #6B77E5;
+    margin-right: 31px;
+
+
+
+}
+
+.first-title-panel-2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    background: #40DDB6;
+    padding: 15px 126px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-panel-2 {
+    padding: 47px 31px;
+}
+
+.second-title-panel-2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+
+    font-weight: 700;
+    line-height: 1.10;
+    margin-bottom: 25px;
+}
+
+.line-1-panel-2 {
+    width: 324px;
+    height: 1px;
+    background: #FFF;
+    margin-bottom: 23px;
+}
+
+.price-panel-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.10;
+    margin-bottom: 23px;
+}
+
+.price-panel-2 span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.10;
+
+}
+
+.first-bottom-panel-2 {
+    color: #6B77E5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.57;
+    background: #FFF;
+    padding: 7px 32px;
+    margin-bottom: 23px;
+}
+
+.line-2-panel-2 {
+    width: 324px;
+    height: 1px;
+    background: #FFF;
+    margin-bottom: 47px;
+}
+
+.list-panel-2 li {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    margin-bottom: 29px;
+}
+
+.list-panel-2 li span {
+    color: #40DDB6;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+}
+
+.second-bottom-panel-2 {
+    margin-top: 47px;
+    color: #6B77E5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    background: #FFF;
+    padding: 21px 42px 22px 42px;
+}
+
+
+/* ------------------------------------ */
+
+
+.panel-3 {
+    text-align: center;
+    display: inline-block;
+    width: 385px;
+    padding: 47px 31px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+
+.name-panel-3 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.10;
+    margin-bottom: 25px;
+}
+
+
+
+.price-panel-3 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.10;
+    margin: 23px 0px 23px 0;
+}
+
+.price-panel-3 span {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.10;
+    margin-bottom: 23px;
+}
+
+.first-bottom-panel-3 {
+    color: #208068;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.57;
+    background: #40DDB6;
+    padding: 7px 32px;
+    margin-bottom: 23px;
+}
+
+
+
+
+
+.footer-paragraph{
+    margin: 0 auto;
+        color: #7D7D7D;
+        font-family: Inter;
+        font-size: 18px;
+        line-height: 1.46;
+        margin-bottom: 50px;
+        max-width: 350px;
+        max-height: 100px;
+        overflow: auto;    
+    
+}
+
+.footer-paragraph span{
+        color: #D06B00; }
