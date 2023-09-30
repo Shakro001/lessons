@@ -329,3 +329,22 @@ span.green-paragraph {
 
 
 
+.border-solid {
+    border: 5px solid black;
+    margin-bottom: 50px;
+}
+.border-dotted {
+    border: 5px dotted black;
+    margin-bottom: 50px;
+}
+.border-dashed {
+    border: 5px dashed black;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px black
+}
+.border-double {
+    border: 5px double black;
+    margin-bottom: 50px;
+    border-radius: 100px;
+}
+
