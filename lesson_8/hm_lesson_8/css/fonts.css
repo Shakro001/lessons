@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'Core Sans C';
+    src:
+        url('../fonts/CoreSansC-65Bold.woff2') format('woff2'),
+        url('../fonts/CoreSansC-65Bold.woff') format('woff');
+
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('../fonts/Causten-Regular.woff2') format('woff2'),
+        url('../fonts/Causten-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten-ExtraLight.woff2') format('woff2'),
+        url('Causten-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
