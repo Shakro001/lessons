@@ -1,0 +1,197 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+
+[class*='__container'] {
+    max-width: 1220px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+
+
+.header {
+    background-color: blue;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.header__menu {
+    margin: 0 auto;
+    text-align: center;
+    
+    
+
+}
+.menu__item {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+}
+
+.menu__item:not(:last-child){
+    margin-right: 160px;
+}
+
+.menu__link {
+    padding: 30px 15px;
+}
+
+.sub-menu--absolut{
+    position: absolute; 
+}
+
+.sub-menu {    
+    top: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    
+}
+
+.menu__item:hover{
+    background-color: #37393F;
+    border-radius: 4px 4px 20px 3px;
+}
+
+.menu__item:hover .sub-menu{
+visibility: visible;
+background-color: bisque;
+}
+
+.sub-menu__item {
+    padding: 15px;
+    position: relative;
+}
+
+.sub-menu__sub-list-absolut{
+    position: absolute;
+    z-index: 50;
+}
+.sub-menu__sub-list {
+    left: 100%;
+    top: 15px;
+    background-color: red;
+    visibility: hidden;
+
+}
+.sub-menu__sub-list__item {
+    padding: 10px;
+}
+
+.sub-menu__sub-list__link:hover{
+    text-decoration: underline;
+}
+
+.sub-menu__item:hover .sub-menu__sub-list{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page{
+    margin-top: 100px;
+}
+
+
+
+.card {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+}
+
+.page__card:nth-child(1),
+.page__card:nth-child(2),
+.page__card:nth-child(4),
+.page__card:nth-child(5) {
+    margin-right: 31px;
+}
+
+.page__card:nth-child(1),
+.page__card:nth-child(2),
+.page__card:nth-child(3) {
+    margin-bottom: 31px;
+}
+
+
+
+.text {
+    background-color: #fff;
+    padding: 24px 69px;
+    max-width: 341px;
+}
+
+.card__text {
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+    right: 23px;
+}
+
+.text__name {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text__job-title {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.card__background {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+
+.card__icon {
+    position: absolute;
+    top: 243px;
+    left: 107px;
+    visibility: hidden;
+}
+
+.icon__instagram--margin,
+.icon__facebook--margin {
+    margin-right: 13px;
+}
+
+.page__card:hover .card__background,
+.page__card:hover .card__icon {
+    visibility: inherit;
+}
