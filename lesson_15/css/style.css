@@ -1,0 +1,524 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+
+[class*="__container"] {
+    max-width: 1240px;
+    margin: 0 auto 100px;
+}
+
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 0 31px 0;
+}
+
+.header__main-content {
+    display: flex;
+    padding: 12px 48px;
+    flex: 1 1 600px;
+    justify-content: center;
+    column-gap: 210px;
+
+
+}
+
+.header__search {
+    color: #807D7E;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header__search img {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-right: 12px;
+
+}
+
+.header__language img {
+    vertical-align: middle;
+    margin-left: 19px;
+    position: relative;
+    bottom: 1px;
+}
+
+.header__language {
+    position: relative;
+    color: #333;
+    font-family: Causten;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__language:hover .menu-language {
+    visibility: visible;
+
+}
+
+.header__menu-language {
+    position: absolute;
+    top: 100%;
+    left: 75%;
+
+}
+
+.menu-language {
+    border: 1px solid black;
+    background-color: #8b9c9c;
+    visibility: hidden;
+}
+
+.menu-language__item {
+    padding: 15px 20px;
+    transition: background .4s;
+}
+
+.menu-language__item:nth-child(1):hover {
+    background: url(../img/header_img/Flag_of_Ukraine.svg.webp)0 -5px/100% no-repeat;
+}
+
+.menu-language__item:nth-child(2):hover {
+    background: url(../img/header_img/Flag_of_japan.webp)0 -5px/cover no-repeat;
+}
+
+.menu-language__item:nth-child(3):hover {
+    background: url(../img/header_img/Flag-of_France.webp)0 -5px/cover no-repeat;
+
+}
+
+
+
+.header__button {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 29px;
+
+}
+
+.header__login {
+    border-radius: 8px;
+    padding: 12px 48px;
+    background: #8A33FD;
+    transition: background, .5s;
+    color: #FFF;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.header__login:hover {
+    background: #6519c7;
+}
+
+.header__sign-up {
+    border-radius: 8px;
+    border: 2px solid #3C4242;
+    padding: 12px 48px;
+    color: #8A33FD;
+    text-align: center;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.header__sign-up:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(61, 59, 59);
+    opacity: 0.2;
+    transform: translate(-100%, 0px);
+    transition: transform 0.5s;
+
+
+}
+
+.header__sign-up:hover::before {
+    transform: translate(0, 0px);
+}
+
+
+
+
+
+
+
+/* ------------------ */
+
+
+
+
+
+.cards__title {
+    margin-bottom: 70px;
+}
+
+.title {
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.68px;
+    display: inline-flex;
+
+}
+
+.title::before {
+    content: "";
+    border-radius: 10px;
+    background: #8A33FD;
+    width: 6px;
+    height: 30px;
+    flex-shrink: 0;
+    position: relative;
+    top: 2px;
+    margin-right: 20px;
+}
+
+
+
+
+
+.cards__content {
+    display: flex;
+    max-width: 1240px;
+    flex-wrap: wrap;
+    flex: 1 1 1240px;
+    justify-content: space-between;
+    row-gap: 50px;
+    margin-bottom: 100px;
+}
+
+
+.cards__image {
+    width: 100%;
+    transition: transform .6s;
+}
+
+.cards__image:hover {
+    transition: all .6s;
+    transform: scale(1.07);
+}
+
+
+.cards__text {
+    margin-top: 15px;
+    position: relative;
+}
+
+.cards__right-button {
+    position: absolute;
+    left: 90%;
+    bottom: 20px;
+}
+
+.cards__name {
+    color: #2A2F2F;
+    font-family: Causten;
+    font-size: 17.875px;
+    font-weight: 700;
+    line-height: 1.56;
+    letter-spacing: -0.715px;
+}
+
+.cards__button {
+    color: #7F7F7F;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.08;
+    letter-spacing: -0.536px;
+}
+
+
+
+
+
+
+
+
+.main__order-cards {
+    margin: 0 auto 100px;
+}
+
+.order {
+    max-width: 895px;
+}
+
+.order__info {
+    padding: 28px 47px;
+
+}
+
+.order__text-info--margin {
+    margin-bottom: 30px;
+}
+
+.order__title {
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order__title--margin {
+    margin-bottom: 14px;
+}
+
+.order__text-info {
+    display: flex;
+    color: #BEBCBD;
+    font-family: Causten;
+    font-size: 14px;
+    column-gap: 361px;
+}
+
+.order__status {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.order__status-info {
+    text-align: right;
+}
+
+
+.order__text-info span {
+    color: #807D7E;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.order__date {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+
+
+
+
+
+.order__card {
+    display: flex;
+    position: relative;
+}
+
+.order__card--margin {
+    margin-bottom: 60px;
+}
+
+
+
+.order__image--margin {
+    margin-right: 25px;
+}
+
+.order__info-card {
+    flex-direction: column;
+    display: flex;
+    row-gap: 7px;
+}
+
+.order__name {
+    padding-top: 3px;
+    color: #3C4242;
+    font-family: Causten;
+    font-weight: 600;
+}
+
+.order__name--margin {
+    margin-bottom: 5px;
+}
+
+.order__color {
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.order__color span {
+    color: #BEBCBD;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.order-qty {
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.order-qty span {
+    color: #BEBCBD;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.order__total {
+    color: #807D7E;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.button {
+    color: #FFF;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #8A33FD;
+    transition: all .5s;
+    padding: 14px 28px;
+}
+
+.order__button {
+    position: absolute;
+    right: 0;
+    margin: 23px 0;
+
+}
+
+.button:hover {
+    background: #5a17b1;
+}
+.wishlist__image,.order__image{
+
+    position: relative;
+    overflow: hidden;
+}
+.wishlist__image::before,
+.order__image::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(90, 86, 86);
+    opacity: 0.2;
+    transform: translate(-100%, 0px);
+    transition: transform 0.5s;
+    overflow: hidden;
+    
+}
+
+.wishlist__image:hover::before,
+.order__image:hover::before{
+    transform: translate(0, 0px);
+}
+
+
+
+.wishlist__menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.wishlist__title {
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+}
+
+
+
+.wishlist__title--margin {
+    margin-bottom: 50px;
+}
+
+.wishlist__item {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    position: relative;
+}
+
+
+.wishlist__info-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.wishlist__info-text span {
+    color: #807D7E;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.44px;
+}
+
+.wishlist__name {
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+}
+
+.wishlist__color,
+.wishlist__qua {
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+}
+
+
+.wishlist__right-content {
+    display: flex;
+    column-gap: 50px;
+    position: absolute;
+    right: 0;
+
+}
+
+.wishlist__price {
+    color: #807D7E;
+    font-family: Causten;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.wishlist__button-cart {
+
+    transform: translate(0, -25%);
+}
