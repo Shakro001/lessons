@@ -1,0 +1,580 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.jewellery-first {
+    margin-bottom: 100px;
+}
+
+.jewellery__container {
+    max-width: 1215px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.jewellery__title {
+    color: #291403;
+    margin-bottom: 27px;
+}
+
+.title {
+    text-align: center;
+    font-family: DM Serif Text;
+    font-size: 58px;
+    line-height: 1.00;
+}
+
+
+
+.sub-title {
+    text-align: center;
+    font-family: "Cormorant Infant";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.40;
+    color: #818181;
+}
+
+.jewellery__sub-title {
+
+    margin-bottom: 64px;
+}
+
+.jewellery__products {
+    display: flex;
+    max-width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 46px;
+}
+
+.jewellery__flex {
+    flex: 1 0 calc(25% - 30px);
+    max-width: 100%;
+
+
+}
+
+.jewellery__product {
+    max-width: 100%;
+}
+
+.jewellery__img-product {
+    margin-bottom: 17px;
+    overflow: hidden;
+
+}
+
+.jewellery__img-product img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: transform .5s;
+    border-radius: 5px;
+
+}
+
+
+.jewellery__img-product img:hover {
+    transform: scale(1.1);
+}
+
+.jewellery__text {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.jewellery__name,
+.jewellery__price {
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.40;
+    padding-left: 10px;
+}
+
+
+.button a {
+    padding: 12px 42.5px;
+    background: #e9693b;
+    color: #FFF;
+    font-family: "Ubuntu";
+    line-height: 1.87;
+    transition: background .4s;
+
+
+}
+
+.button {
+    text-align: center;
+
+}
+
+.button a:hover {
+    background: #db4b16;
+
+}
+
+
+@media (max-width:990px) {
+    .jewellery__flex {
+        flex: 1 0 calc(33.333% - 30px);
+        text-align: center;
+        max-width: 300px;
+
+    }
+}
+
+@media (max-width:700px) {
+    .jewellery__flex {
+        flex: 1 0 calc(50% - 30px);
+        text-align: center;
+        max-width: 320px;
+
+    }
+}
+
+@media (max-width:480px) {
+    .jewellery__flex {
+        flex: 1 0 100%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+}
+
+
+.jewellery-second {
+    background: #0E333D;
+}
+
+.jewellery__title-second {
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.jewellery__sub-title-second {
+    color: #EBEBEB;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.27;
+    margin-bottom: 34px;
+}
+
+.jewellery__nav {
+    justify-content: center;
+    display: flex;
+    column-gap: 41px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 77px;
+
+}
+
+.jewellery__nav a::after {
+    content: "";
+    display: block;
+    margin-top: 3px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.jewellery__nav a:hover::after {
+    width: 99%;
+}
+
+.jewellery__name--white,
+.jewellery__price--white {
+    color: #fff;
+}
+
+
+
+
+
+
+.jewellery {}
+
+.jewellery-third {
+    background: url(../img/cards/decor.png) right bottom no-repeat;
+}
+
+.jewellery__container {}
+
+.jewellery__title-third {
+    margin-bottom: 27px;
+    text-align: left;
+}
+
+
+.jewellery__sub-title-third {
+    text-align: left;
+    margin-bottom: 53px;
+}
+
+
+.jewellery__item {}
+
+.jewellery__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+
+.jewellery__img-card {
+    margin-bottom: 25px;
+    overflow: hidden;
+
+}
+
+.jewellery__img-card img:hover {
+    transform: scale(1.1);
+}
+
+.jewellery__img-card img {
+    transition: transform .3s;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 361 / 242;
+    object-position: center;
+}
+
+.jewellery__img-card a {
+    display: block;
+}
+
+.jewellery__text-card {
+    max-width: 361px;
+}
+
+.jewellery__name-card {
+    color: #000;
+    font-family: DM Serif Text;
+    font-size: 24px;
+    line-height: 1.20;
+}
+
+.jewellery__name-card--margin {
+    margin-bottom: 16px;
+}
+
+.jewellery__paragraph {
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    color: #000;
+    font-family: Inter;
+    line-height: 1.60;
+}
+
+.jewellery__flex-third {
+    flex: 1 0 calc(33.333% - 50px);
+    max-width: 361px;
+}
+
+.jewellery__read-more {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+}
+
+.jewellery__button-read {
+    color: #F55529;
+    font-family: Inter;
+    font-weight: 800;
+    line-height: 1.50;
+}
+
+
+@media (max-width: 900px) and (min-width:701px) {
+    .jewellery__flex-third {
+        flex: 1 0 calc(50% - 50px);
+        margin: 0 auto;
+    }
+
+    .jewellery__sub-title-third,
+    .jewellery__title-third {
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 700px) {
+    .jewellery__cards {
+        margin: 0 auto;
+
+    }
+
+    .jewellery__flex-third {
+        flex: 1 0 calc(100%);
+        margin: 0 auto;
+
+    }
+
+    .jewellery-third {
+        background: none;
+    }
+
+}
+
+.jewellery-third {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+.consulting {
+    background: #37393F;
+    url(../img/consilting/bg.jpg) no-repeat;
+    position: relative;
+    z-index: -2;
+}
+
+.consulting__bg {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
+
+.consulting__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.consulting__text {
+    padding-top: 138px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 13px;
+}
+
+.consulting__text--margin {
+    margin-bottom: 36px;
+}
+
+.consulting__sub-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.consulting__sub-title::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #40DDB6;
+    margin-right: 6px;
+}
+
+.consulting__title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.21;
+    max-width: 400px;
+}
+
+.consulting__paragraph {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.46;
+    max-width: 572px;
+}
+
+
+.consulting__statistics {
+    display: flex;
+    column-gap: 15px;
+}
+
+.consulting__statistics--margin {
+    margin-bottom: 36px;
+
+}
+
+.consulting__statistic {
+    background: #2E2F34;
+    padding: 27px 30px;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.consulting__procent {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid #40DDB6;
+    padding: 26px 19px;
+    border-radius: 50%;
+
+
+}
+
+.consulting__text-statistic {
+    padding-top: 15px;
+}
+
+.consulting__name {
+    color: #FFF;
+    font-family: Inter;
+    line-height: 1.35;
+}
+
+.consulting__info {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.consulting__list {
+    display: flex;
+    column-gap: 37px;
+}
+
+.consulting__result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+
+.consulting__str {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    padding-bottom: 136px;
+}
+
+.consulting__item {
+    display: inline-block;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.consulting__item span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.consulting__orange {
+    display: inline-block;
+    color: #FFB342;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.consulting__orange img {
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
+}
+
+.consulting__button {
+    color: #40DDB6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+
+}
+
+.consulting__button::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #40DDB6;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.consulting__button:hover::after {
+    width: 99%;
+}
+
+.icon::before{
+    background: url(../img/consilting/vector.svg);
+    content: "";
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
+    margin-right: 7px;
+}
+
+@media (max-width:1777px) {
+    .consulting__bg {
+        display: none;
+    }
+
+    .consulting__title,
+    .consulting__sub-title,
+    .consulting__paragraph,
+    .consulting__statistics,
+    .consulting__list {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .consulting__statistics--margin {
+        margin-bottom: 70px;
+    }
+
+}
+
+@media (max-width:540px) {
+    .consulting__statistics{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+}
