@@ -1,0 +1,236 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 27px 0 41px 0;
+}
+.header__container {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 15px;
+    gap: 20px;
+    align-items: center;
+}
+.header__logo {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+.header__menu {
+}
+.menu {
+    display: flex;
+    gap: 36px;
+}
+.menu__item {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    position: relative;
+}
+.focus {
+    font-weight: 700;
+}
+.header__button a {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 12px 29px 14px 26px;
+    border-radius: 5px;
+    background: #0e333d;
+    transition: background 0.3s;
+    text-align: center;
+}
+.header__button a:hover {
+    background: #16404b;
+}
+
+.sub-menu {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    top: 115%;
+    bottom: ;
+    visibility: hidden;
+}
+.sub-menu__link {
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #1b292d;
+    color: #e7d9d9;
+    border: 1px solid black;
+}
+.menu__item:hover .sub-menu {
+    visibility: visible;
+}
+.sub-menu__item a:hover {
+    background-color: #314b52;
+}
+.menu__item:hover .menu__link {
+    text-decoration: underline;
+}
+.sub-menu__item .sub-menu__link {
+}
+.menu__arrow {
+    vertical-align: middle;
+    transition: all 0.4s;
+}
+.menu__item:hover .menu__arrow {
+    transform: rotate(180deg);
+}
+
+.header__burger img {
+    width: 40px;
+    height: 40px;
+}
+.header__burger {
+    display: none;
+}
+
+@media (max-width: 1043px) {
+    .header__menu {
+        display: none;
+    }
+    .header__burger {
+        display: flex;
+    }
+    .header__container {
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .header__logo {
+        text-align: center;
+    }
+    .header {
+        margin: 5px 0;
+    }
+    .header__button a {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 403px) {
+    .header__logo {
+        font-size: 25px;
+    }
+}
+
+/* main content */
+.main__container {
+    max-width: 1215px;
+    margin: 0 auto 100px;
+    padding: 0 15px;
+    display: flex;
+    margin-top: 100px;
+    column-gap: 86px;
+}
+.main__content {
+    padding-top: 120px;
+    max-width: 570px;
+    flex-basis: 57%;
+}
+.main__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.main__text--margin {
+    margin-bottom: 48px;
+}
+.title {
+    color: #0e333d;
+    font-family: DM Serif Text;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 127%;
+}
+.paragraph {
+    color: #727272;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.48;
+}
+.main__buttons {
+    display: flex;
+    column-gap: 47px;
+}
+.main__button a {
+    padding: 17px 37.5px;
+    color: #fff;
+    font-family: DM Serif Text;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    border-radius: 5px;
+    background: #0e333d;
+}
+.main__button-nobg a {
+    padding: 17px 0;
+    color: #0e333d;
+    font-family: DM Serif Text;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-decoration-line: underline;
+}
+
+
+.main__img-content {
+    display: flex;
+    column-gap: 32px;
+    flex-basis: 70%;
+    flex-shrink: 1;
+}
+.main__jewellery-img img,
+.main__woomen-img img{
+    width: 100%;
+}.main__jewellery-img{
+    padding-top: 103px;
+}
+.main__woomen-img {
+    padding-top: 35px;
+}
+
+@media(max-width:941px){
+    .main__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__title,
+    .main__paragraph{
+        text-align: center;
+        font-size: 55px;
+        max-width: 500px;
+    }.main__paragraph{
+        font-size: 30px;
+    }
+    .main__button{
+        margin: 0 auto;
+        
+
+    }
+
+}
+@media(max-width:404px){
+    .main__buttons a{
+        font-size: 20px;
+    }
+}
