@@ -1,59 +1,76 @@
 "use strict"
 
-const bodyElement = document.body
+
+
+const bodyElement = document.body;
 console.log(bodyElement)
 
 
-function listAdd(li){
-const bodyElement = document.body;
-const list = bodyElement.insertAdjacentHTML('afterbegin', '<ol>');
-const listSearch = document.querySelector("ol")
-  
-for(let i = 0; i < li; i++){
-    const listItem = document.createElement('li');  
-    listSearch.prepend(listItem)
+
+function addList(li){
+   const olElement = document.createElement('ol');
+    bodyElement.prepend(olElement) 
+    const liElement = document.createElement('li')
+    for(let i = 0; i<li;i++){
+     const liElement = document.createElement('li')
+      olElement.insertAdjacentElement('afterbegin',liElement) 
+
+
+    }
+        
+      
+   
+    
+
 }
-}
 
-listAdd()
-
-
-bodyElement.classList.add('loaded')
-if(bodyElement.classList.contains('loaded')){
-    bodyElement.style.color = "green"
+addList(3)
+bodyElement.className = 'loaded'
+if(bodyElement.classList.toggle){
+    
+    bodyElement.style.color= 'green'
 }else{
-    console.log('такого класу не існує!!!')
+    console.log('помилка!')
 }
 
 
+const liElements = document.querySelectorAll('li')
+liElements.forEach((liElements,index) => {
+    liElements.classList.add('item','active');
+    liElements.innerText = `елемент №${++index}`
+    
+})
 
 
-const itemElements = document.querySelectorAll(".item");
-itemElements.forEach((item, index) => {
-    item.classList.add('active');
-    item.textContent = `пункт #${index + 1}`;
-});
 
-const button = document.querySelector(".button");
-function scrollToButton(element){
-    element.scrollIntoView({
-        block: "center",
-        inline: "nearest",
-        behavior: "smooth"
-    })
+// let speed = parseFloat(link.dataset.speed)
+
+const button = document.querySelector('.button')
+let positionScroll = button.dataset.moove
+console.log(positionScroll)
+button.scrollIntoView({
+    block: positionScroll,
+    behavior: 'smooth'
+    
+})
+
+
+
+
+
+
+
+
+
+const link = document.querySelector('.link')
+let anim = link.dataset.anim;
+if(anim < 200){
+    link.style.cssText = `
+    color: red;
+    font-size: 25px;
+    `
 }
 
-scrollToButton(button)
-
-
-const link = document.querySelector(".link")
-let dataLink = link.dataset.link
-
-console.log(dataLink)
-if(dataLink<200){
-    console.log('воно меньше')
-    link.style.color = `red`
-}
 
 
 
