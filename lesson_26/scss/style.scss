@@ -1,0 +1,32 @@
+
+@import 'function.scss';
+@import 'reset.scss';
+
+body{
+    opacity: 1;
+}
+
+.opacity{
+    opacity: 1;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item{
+    display: inline-block;
+}
+
+.footer--bg{
+    background-color: green;
+}
+
+.item-two{
+    font-size: 30px;
+    color: red;
+}
